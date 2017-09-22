@@ -1,0 +1,260 @@
+/**
+ * Theme Name:          Mai Slate Pro
+ * Description:         Mai Slate Pro is a custom child theme for The Genesis Framework.
+ * Author:              Mike Hemberger, BizBudding Inc
+ * Author URI:          https://bizbudding.com/
+ * Version:             1.0.0
+ *
+ * Template:            genesis
+ *
+ * License:             GPL-2.0+
+ * License URI:         http://www.opensource.org/licenses/gpl-license.php
+ */
+
+
+/* Table of Contents
+
+	- Defaults
+	- Structure and Layout
+	- Common Classes
+	- Content Area
+		- Entry Meta
+	- Media Queries (mobile-first)
+	- Media Queries (mobile-second)
+
+*/
+
+
+/* # Defaults
+---------------------------------------------------------------------------------------------------- */
+
+/**
+ * Retina Logo
+ *
+ * If uploading double sized (retina) image,
+ * put exactly half the width in pixels for retina display.
+ * Example: Retina (2x) image is 360px by 90px, CSS should be:
+ * max-width: 180px;
+ */
+.wp-custom-logo .site-title a {
+	/* max-width: 180px; */
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title a,
+.adjacent-entry-pagination a {
+	/* font-family: 'Playfair Display', serif; */
+	font-family: 'Muli', sans-serif;
+	/* letter-spacing: 0.5px; */
+}
+
+h1,
+.heading {
+	font-weight: 700;
+}
+
+.heading {
+	text-align: inherit;
+}
+
+.author-box-title,
+.entry-comments h3,
+.comment-respond h3,
+.widget-title {
+	font-weight: 700;
+}
+
+.sidebar .widget-title {
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+/* # Structure and Layout
+---------------------------------------------------------------------------------------------------- */
+
+.site-inner {
+	/* background-color: #fff; */
+}
+
+/* # Common Classes
+---------------------------------------------------------------------------------------------------- */
+
+.image-bg .inner {
+	/* border: 6px solid rgba(0,0,0,0.075); */
+}
+
+.breadcrumb {
+	-webkit-font-smoothing: antialiased;
+}
+
+/* # Site Header
+---------------------------------------------------------------------------------------------------- */
+
+.site-header {
+	/* background-color: #000; */
+}
+
+.site-title a {
+	/* color: #fff; */
+}
+
+.nav-header a {
+	/* color: #fff; */
+}
+
+/* # Content Area
+---------------------------------------------------------------------------------------------------- */
+
+.entry {
+	background-color: transparent;
+	border: none;
+}
+
+.content > .entry:not(.image-bg),
+.content > .row > .flex-entry {
+	padding-top: 0;
+}
+
+.content .entry:not(.image-bg) {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.content > .entry:not(.image-bg) {
+	padding-bottom: 0;
+}
+
+.flex-entry.column .entry-image-before-entry:not(.aligncenter):not(.alignleft):not(.alignright) {
+	width: 100%;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.singular .featured-image {
+	margin-bottom: 24px;
+}
+
+.content-no-sidebars .featured-image {
+	position: relative;
+	width: 100vw;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+}
+
+.content-no-sidebars .featured-image .wp-post-image {
+	max-width: 896px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-no-sidebars > .entry img.alignleft {
+	margin-left: -24px;
+}
+
+.content-no-sidebars > .entry img.alignright {
+	margin-right: -24px;
+}
+
+/* ## Entry Meta
+--------------------------------------------- */
+
+.entry-footer .entry-meta {
+	/* border-top: 1px solid #ebe9eb; */
+}
+
+.flex-entry .entry-footer .entry-meta {
+	/* margin-top: 20px; */
+}
+
+.entry-comments .comment-meta {
+	-webkit-font-smoothing: antialiased;
+}
+
+li.comment {
+	background-color: inherit;
+}
+
+/* ## Sidebars
+--------------------------------------------- */
+
+.sidebar .widget {
+	padding: 0;
+	border: none;
+}
+
+/* ## Front Page
+--------------------------------------------- */
+
+.home .content .heading {
+	/* background-color: #323232; */
+	/* color: #fff; */
+	/* text-align: left; */
+	/* padding: 8px 16px; */
+	/* border-left: 10px solid #000; */
+}
+
+/* # Media Queries (mobile-first)
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 1160px) {}
+
+@media only screen and (min-width: 993px) {
+
+	.md-content .content-no-sidebars > .entry img.alignleft {
+		margin-left: -48px;
+	}
+
+	.md-content .content-no-sidebars > .entry img.alignright {
+		margin-right: -48px;
+	}
+
+}
+
+@media only screen and (min-width: 769px) {
+
+	.sm-content .content-no-sidebars > .entry img.alignleft {
+		margin-left: -48px;
+	}
+
+	.sm-content .content-no-sidebars > .entry img.alignright {
+		margin-right: -48px;
+	}
+
+}
+
+@media only screen and (min-width: 545px) {
+
+	.xs-content .content-no-sidebars > .entry img.alignleft {
+		margin-left: -48px;
+	}
+
+	.xs-content .content-no-sidebars > .entry img.alignright {
+		margin-right: -48px;
+	}
+
+}
+
+/* # Media Queries (mobile-second)
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1159px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 544px) {}
