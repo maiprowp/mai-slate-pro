@@ -83,16 +83,9 @@ h1,
 /* # Structure and Layout
 ---------------------------------------------------------------------------------------------------- */
 
-.site-inner {
-	/* background-color: #fff; */
-}
 
 /* # Common Classes
 ---------------------------------------------------------------------------------------------------- */
-
-.image-bg .inner {
-	/* border: 6px solid rgba(0,0,0,0.075); */
-}
 
 .breadcrumb {
 	-webkit-font-smoothing: antialiased;
@@ -101,17 +94,6 @@ h1,
 /* # Site Header
 ---------------------------------------------------------------------------------------------------- */
 
-.site-header {
-	/* background-color: #000; */
-}
-
-.site-title a {
-	/* color: #fff; */
-}
-
-.nav-header a {
-	/* color: #fff; */
-}
 
 /* # Content Area
 ---------------------------------------------------------------------------------------------------- */
@@ -172,14 +154,6 @@ h1,
 /* ## Entry Meta
 --------------------------------------------- */
 
-.entry-footer .entry-meta {
-	/* border-top: 1px solid #ebe9eb; */
-}
-
-.flex-entry .entry-footer .entry-meta {
-	/* margin-top: 20px; */
-}
-
 .entry-comments .comment-meta {
 	-webkit-font-smoothing: antialiased;
 }
@@ -194,17 +168,6 @@ li.comment {
 .sidebar .widget {
 	padding: 0;
 	border: none;
-}
-
-/* ## Front Page
---------------------------------------------- */
-
-.home .content .heading {
-	/* background-color: #323232; */
-	/* color: #fff; */
-	/* text-align: left; */
-	/* padding: 8px 16px; */
-	/* border-left: 10px solid #000; */
 }
 
 /* # Media Queries (mobile-first)
