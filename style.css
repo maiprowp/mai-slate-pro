@@ -154,6 +154,11 @@ h1,
 /* ## Entry Meta
 --------------------------------------------- */
 
+.adjacent-entry-pagination .pagination-previous a,
+.adjacent-entry-pagination .pagination-next a {
+	padding: 8px 4px;
+}
+
 .entry-comments .comment-meta {
 	-webkit-font-smoothing: antialiased;
 }
