@@ -124,6 +124,10 @@ h1,
 	margin-right: 0;
 }
 
+.flex-entry.entry > .woocommerce-LoopProduct-link {
+	margin: 0 0 12px;
+}
+
 .singular .featured-image {
 	margin-bottom: 24px;
 }
