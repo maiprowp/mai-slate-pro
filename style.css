@@ -3,7 +3,7 @@
  * Description:         Mai Slate Pro is a custom child theme for The Genesis Framework.
  * Author:              Mike Hemberger, BizBudding Inc
  * Author URI:          https://bizbudding.com/
- * Version:             1.0.0
+ * Version:             1.0.1
  *
  * Template:            genesis
  *
@@ -54,9 +54,6 @@ h5,
 h6,
 .site-title a,
 .adjacent-entry-pagination a {
-	/* font-family: 'Playfair Display', serif; */
-	font-family: 'Muli', sans-serif;
-	/* letter-spacing: 0.5px; */
 }
 
 h1,

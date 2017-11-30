@@ -3,7 +3,7 @@
 // Child theme (Do not remove!)
 define( 'CHILD_THEME_NAME', 'Mai Slate Pro' );
 define( 'CHILD_THEME_URL', 'https://maipro.io/' );
-define( 'CHILD_THEME_VERSION', '1.0.0' );
+define( 'CHILD_THEME_VERSION', '1.0.1' );
 
 // Support the Mai Pro Engine (Do not remove!)
 add_theme_support( 'mai-pro-engine' );
@@ -32,7 +32,7 @@ foreach ( glob( dirname( __FILE__ ) . '/includes/*.php' ) as $file ) { include $
 // Enqueue CSS files
 add_action( 'wp_enqueue_scripts', 'maip_enqueue_fonts' );
 function maip_enqueue_fonts() {
-	wp_enqueue_style( 'maip-google-fonts', '//fonts.googleapis.com/css?family=Alegreya:700,700i|Amiri:700,700i|Arimo:700,700i|Domine:700|Muli:300,300i,400,400i,700,700i|Playfair+Display:400,700,700i,900,900i', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'maip-google-fonts', '//fonts.googleapis.com/css?family=Muli:300,300i,400,400i,700,700i', array(), CHILD_THEME_VERSION );
 }
 
 // Customize the site footer text
