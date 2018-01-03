@@ -101,7 +101,7 @@ h1,
 }
 
 .content > .entry:not(.image-bg),
-.content > .row > .flex-entry {
+.content .flex-entry {
 	padding-top: 0;
 }
 
