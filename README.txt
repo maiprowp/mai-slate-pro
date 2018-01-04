@@ -12,5 +12,13 @@ Please visit http://support.maipro.io/ for theme support.
 
 CHANGELOG
 
+= 1.0.2 =
+* Fixed: [grid] in sections wasn’t removing top padding.
+
+= 1.0.1 =
+* Fixed: Remove excess fonts from being loaded.
+* Fixed: Slightly more specific woo entry margin reset.
+* Changed: Slatify Woo product/flex-entries.
+
 = 1.0.0 =
 * Initial release.
