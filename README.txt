@@ -13,6 +13,7 @@ Please visit http://support.maipro.io/ for theme support.
 CHANGELOG
 
 = 1.0.2 =
+* Changed: Update dependency loader to latest version.
 * Fixed: [grid] in sections wasn’t removing top padding.
 
 = 1.0.1 =
